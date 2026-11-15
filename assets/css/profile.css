@@ -1,0 +1,11 @@
+header.profile-header{text-align:center;font-family:"Crimson Pro",serif}
+.profile-header .profile-photo{display:block;width:180px;max-width:100%;height:auto;border-radius:12px;margin:0 auto 24px}
+.profile-header h1{font-family:"Crimson Pro",serif;font-size:32px;line-height:1.2;color:#249ac4;margin:0 0 24px}
+.profile-header .profile-role{font-size:20px;line-height:1.5;margin:0 0 2px}
+.profile-header .profile-affiliation{font-size:17px;line-height:1.5;margin:0 0 2px}
+.profile-header .profile-email{font-size:16px;line-height:1.6;color:inherit;overflow-wrap:anywhere}
+.profile-header .profile-social{display:flex;justify-content:center;align-items:center;gap:19px;margin-top:30px}
+.profile-social a{display:inline-flex;align-items:center;justify-content:center;width:34px;height:40px;color:#249ac4}
+.profile-social svg{width:24px;height:24px;fill:currentColor}
+.profile-social a:hover{color:#16749a}.profile-social a:focus-visible,.profile-email:focus-visible{outline:2px solid currentColor;outline-offset:4px;border-radius:3px}
+@media(prefers-color-scheme:dark){.profile-header h1,.profile-social a{color:#3eb7f0}.profile-social a:hover{color:#80d5ff}}
